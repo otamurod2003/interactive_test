@@ -1,0 +1,21 @@
+<!-- frontend/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Test Platforma - Login</title>
+  <script src="js/auth.js" defer></script>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 flex justify-center items-center h-screen">
+  <div class="bg-white p-8 rounded-xl shadow-lg w-96">
+    <h2 class="text-2xl font-bold mb-6 text-center">Kirish</h2>
+    <form id="loginForm">
+      <input type="email" id="email" placeholder="Email" class="w-full p-2 mb-4 border rounded">
+      <input type="password" id="password" placeholder="Parol" class="w-full p-2 mb-4 border rounded">
+      <button type="submit" class="w-full bg-blue-600 text-white py-2 rounded hover:bg-blue-700">Kirish</button>
+    </form>
+    <p id="error" class="text-red-500 text-sm mt-4 hidden">Email yoki parol noto‘g‘ri</p>
+  </div>
+</body>
+</html>
